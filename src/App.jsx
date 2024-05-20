@@ -1,3 +1,4 @@
+import About from "./components/About"
 import Banner from "./components/Banner"
 import Footer from "./components/Footer"
 import Navbar from "./components/Navbar"
@@ -7,6 +8,7 @@ const App = () => {
     <div className="bg-[#FFFFFF]">
       <Navbar/>
       <Banner/>
+      <About/>
       <Footer/>
     </div>
   )

@@ -1,0 +1,10 @@
+.bg{
+    background-image: url('/Oval.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    overflow: hidden;
+    margin-top: 10px;
+    
+   
+}

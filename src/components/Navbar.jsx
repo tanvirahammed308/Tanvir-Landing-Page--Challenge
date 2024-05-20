@@ -13,7 +13,7 @@ const Navbar = () => {
     }
   return (
     <header>
-      <nav className="flex justify-between items-center p-2 mx-5">
+      <nav className="flex justify-between items-center p-2 mx-5 ">
         <div>
           <li className="list-none">
             <a href="#" className="text-xl font-bold">
@@ -65,7 +65,7 @@ const Navbar = () => {
         menuIcon && <div  className="
         absolute top-10 right-2 w-48 p-2
         
-       rounded-md
+       rounded-md z-10
         
          bg-[#EAEAEA] text-black ease-in duration-300
         

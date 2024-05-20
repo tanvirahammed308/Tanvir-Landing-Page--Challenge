@@ -6,7 +6,7 @@ import { FaTwitter } from "react-icons/fa";
 
 const Footer = () => {
   return (
-    <footer className="mx-6">
+    <footer className="mx-6 mt-10">
         <div className="block px-20 space-y-4 md:flex justify-between items-center md:px-10">
             <div className="w-[350px]">
                 <h1 className="text-2xl font-bold"> Eye<span className="text-[#FED29C]">Glass</span></h1>
@@ -43,9 +43,9 @@ const Footer = () => {
             </div>
            
         </div>
-        <div className="block md:flex justify-between items-center my-5">
+        <div className="block md:flex justify-between items-center my-2">
             <p className="text-[#545454]">Copyright © 2023 All rights reserved by Eyeglass</p>
-            <ul className="flex space-x-28 md:space-x-3 my-5">
+            <ul className="flex space-x-28 md:space-x-3 my-2">
                 <li  className="text-[#545454]">Privacy Policy</li>
                 <li className="text-[#545454]">Terms of service</li>
             </ul>

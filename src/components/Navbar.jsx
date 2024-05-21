@@ -63,7 +63,7 @@ const Navbar = () => {
 {/* // w-[150px] bg-white shadow-md  top-8 right-0 p-5 */}
     {
         menuIcon && <div  className="
-        absolute top-10 right-2 w-48 p-2
+        absolute top-10 -left-32 md:right-2 w-48 p-2
         
        rounded-md z-10
         

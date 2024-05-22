@@ -7,13 +7,9 @@ import { CiBookmarkCheck } from "react-icons/ci";
 import { FaCcAmazonPay } from "react-icons/fa";
 import { TbTruckDelivery } from "react-icons/tb";
 
-
-
-
-
 const Banner = () => {
   return (
-    <div className="flex justify-center items-center bg-[#EAEAEA] relative md:mb-40 mb-56">
+    <div className="flex justify-center items-center  w-full h-[350px]  md:[400px] md:h-[500px] bg-[#EAEAEA] relative md:mb-40 mb-56 ">
       <Carousel
         showThumbs={false}
         showStatus={false}
@@ -21,80 +17,63 @@ const Banner = () => {
         useKeyboardArrows
         autoPlay
         interval={10000}
-        className="bg "
+        className="p-5 md:p-5 w-[350px] h-[350px] md:w-[450px]  md:h-[450px] bg   "
       >
-        <div className="w-[200px] md:w-[250px] mx-36  sm:mx-36  md:mx-[550px]">
-          <img src="/b1.png" alt="Slide 1" />
+        <div className="">
+          <img src="/b1.png" alt="Slide 1" className="" />
         </div>
-        <div className="w-[200px] md:w-[250px] mx-36  md:mx-[550px]">
-          <img src="/b1.png" alt="Slide 1" />
+        <div className="">
+          <img src="/b1.png" alt="Slide 1" className="" />
         </div>
-        <div className="w-[200px] md:w-[250px] mx-36  md:mx-[550px]">
-          <img src="/b1.png" alt="Slide 1" />
+        <div className="">
+          <img src="/b1.png" alt="Slide 1" className="" />
         </div>
       </Carousel>
-      <div className="w-[100px] md:w-[250px] absolute right-[250px] md:right-[730px] ">
-        <h2 className="text-sm md:text-xl font-bold">Personalized Eyeglass Shopping</h2>
+      <div className="w-[100px] md:w-[250px] absolute top-[130px] right-[250px] md:right-[750px] ">
+        <h2 className="text-sm md:text-xl font-bold">
+          Personalized Eyeglass Shopping
+        </h2>
         <button className="flex items-center gap-1 md:gap-2 bg-[#383838] py-2 px-2 rounded-sm text-white my-3">
           <BsCart2 />
-
           Buy Now
         </button>
       </div>
       <div className="flex md:flex gap-5 md:gap-10 absolute -bottom-52  md:-bottom-20 ">
         <div className="w-[75px] md:w-[250px] items-center ">
-        <div className="bg-[#FED29C] mx-3 md:mx-10 w-[50px] border-radius p-5 rounded-full">
-        <CiSearch />
-
-
-        </div>
-        <div className="px-5">
-
-        <h5 className="text-[#383838]">Search you sunglass</h5>
-        <small className="text-[#545454]">Shop Stylish Eyewear Now</small>
-        </div>
-
+          <div className="bg-[#FED29C] mx-3 md:mx-10 w-[50px] border-radius p-5 rounded-full">
+            <CiSearch />
+          </div>
+          <div className="px-5">
+            <h5 className="text-[#383838]">Search you sunglass</h5>
+            <small className="text-[#545454]">Shop Stylish Eyewear Now</small>
+          </div>
         </div>
         <div className="w-[75px] md:w-[250px] items-center">
-        <div className="bg-[#FED29C] mx-1 md:mx-5 w-[50px] border-radius p-5 rounded-full">
-        <CiBookmarkCheck />
-
-
-
-        </div>
-        <div>
-
-        <h5 className="text-[#383838]">Select Sunglass </h5>
-        <small className="text-[#545454]">Shade Your Style</small>
-        </div>
-
+          <div className="bg-[#FED29C] mx-1 md:mx-5 w-[50px] border-radius p-5 rounded-full">
+            <CiBookmarkCheck />
+          </div>
+          <div>
+            <h5 className="text-[#383838]">Select Sunglass </h5>
+            <small className="text-[#545454]">Shade Your Style</small>
+          </div>
         </div>
         <div className="w-[75px] md:w-[250px] items-center">
-        <div className="bg-[#FED29C] mx-0 md:mx-5 w-[50px] border-radius p-5 rounded-full">
-        <FaCcAmazonPay />
-
-
-        </div>
-        <div>
-
-        <h5 className="text-[#383838]">Make Payment</h5>
-        <small className="text-[#545454]">Securely Checkout Now</small>
-        </div>
-
+          <div className="bg-[#FED29C] mx-0 md:mx-5 w-[50px] border-radius p-5 rounded-full">
+            <FaCcAmazonPay />
+          </div>
+          <div>
+            <h5 className="text-[#383838]">Make Payment</h5>
+            <small className="text-[#545454]">Securely Checkout Now</small>
+          </div>
         </div>
         <div className="w-[75px] md:w-[250px] items-center">
-        <div className="bg-[#FED29C]  mx-0 md:mx-5 w-[50px] border-radius p-5 rounded-full">
-        <TbTruckDelivery />
-
-
-
-        </div>
-        <div>
-
-        <h5 className="text-[#383838]">Received Product </h5>
-        <small className="text-[#545454]">See the World Clearly</small>
-        </div>
-
+          <div className="bg-[#FED29C]  mx-0 md:mx-5 w-[50px] border-radius p-5 rounded-full">
+            <TbTruckDelivery />
+          </div>
+          <div>
+            <h5 className="text-[#383838]">Received Product </h5>
+            <small className="text-[#545454]">See the World Clearly</small>
+          </div>
         </div>
       </div>
     </div>

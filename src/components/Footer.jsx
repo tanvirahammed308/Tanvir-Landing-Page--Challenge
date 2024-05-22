@@ -45,9 +45,9 @@ const Footer = () => {
         </div>
         <div className="block md:flex md:justify-between items-center my-2">
             <p className="text-[#545454]">Copyright © 2023 All rights reserved by Eyeglass</p>
-            <ul className="flex space-x-28 md:space-x-3 my-2">
+            <ul className="flex justify-between md:space-x-6 my-2">
                 <li  className="text-[#545454]">Privacy Policy</li>
-                <li className="text-[#545454]">Terms of service</li>
+                <li className="text-[#545454] ">Terms of service</li>
             </ul>
         </div>
     </footer>

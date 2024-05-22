@@ -1,8 +1,9 @@
-import sun from "../../public/sun-1.png"
+import sun from "/sun-1.png"
 const About = () => {
   return (
+    // h-[450px]
     <div className="block md:flex ">
-        <div className="w-full md:w-1/2 bg-[#FED29C] p-10 text-center md:px-36 md:py-36">
+        <div className="w-full md:w-1/2  bg-[#FED29C] p-10 text-center md:px-24 md:py-24">
             <h2 className="font-bold text-xl w-full md:w-[350px] h-[90px]">Experience clear vision with OptiChroma Vision Frames</h2>
             <div className="w-full md:w-[350px]">
 
@@ -11,10 +12,10 @@ const About = () => {
             </div>
             <div className="mr-0 md:mr-12 mt-5 md:mt-2">
 
-            <button className="bg-[#383838]  py-2 px-3 p-2 rounded-sm">About Us</button>
+            <button className="bg-[#383838]  py-2 px-3 p-2 text-white rounded-sm">About Us</button>
             </div>
         </div>
-        <div className="w-full md:w-1/2">
+        <div className="w-full md:w-1/2 ">
             <img src={sun} alt="" />
         </div>
     </div>

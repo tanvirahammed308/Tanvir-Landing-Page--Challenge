@@ -9,7 +9,7 @@ import { TbTruckDelivery } from "react-icons/tb";
 
 const Banner = () => {
   return (
-    <div className="flex justify-center items-center  w-full h-[350px]  md:[400px] md:h-[500px] bg-[#EAEAEA] relative md:mb-40 mb-56 ">
+    <div className="flex justify-center items-center  w-full h-[350px]  md:[400px] md:h-[490px] bg-[#EAEAEA] relative md:mb-40 mb-56 ">
       <Carousel
         showThumbs={false}
         showStatus={false}
@@ -17,19 +17,19 @@ const Banner = () => {
         useKeyboardArrows
         autoPlay
         interval={10000}
-        className="p-5 md:p-5 w-[350px] h-[350px] md:w-[450px]  md:h-[450px] bg   "
+        className="p-5 md:p-5 w-[350px] h-[350px] md:w-[460px]  md:h-[460px] bg    md:mt-7"
       >
-        <div className="">
+        <div className=" mt-12  ">
           <img src="/b1.png" alt="Slide 1" className="" />
         </div>
-        <div className="">
+        <div className="mt-12 ">
           <img src="/b1.png" alt="Slide 1" className="" />
         </div>
-        <div className="">
+        <div className="mt-12  ">
           <img src="/b1.png" alt="Slide 1" className="" />
         </div>
       </Carousel>
-      <div className="w-[100px] md:w-[250px] absolute top-[130px] right-[250px] md:right-[750px] ">
+      <div className="w-[100px] md:w-[250px] absolute top-[130px] md:top-[180px] right-[250px] md:right-[750px] ">
         <h2 className="text-sm md:text-xl font-bold">
           Personalized Eyeglass Shopping
         </h2>

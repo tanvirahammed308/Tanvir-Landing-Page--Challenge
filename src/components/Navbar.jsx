@@ -50,7 +50,14 @@ const Navbar = () => {
         <div className="hidden md:flex items-center space-x-6">
           <div className="relative">
           <FaCartShopping size={30} />
-         <span className="absolute bottom-6 -right-5 bg-red-500 px-3 py-1 rounded-full">{cartItems?.length}</span>
+          <div>
+
+          {
+            cartItems?.length ? <span className="absolute bottom-6 -right-5 bg-red-500 px-3 py-1 rounded-full">{cartItems?.length}</span>:""
+          }
+          </div>
+
+         
 
           </div>
           <FaUser  size={30}/>

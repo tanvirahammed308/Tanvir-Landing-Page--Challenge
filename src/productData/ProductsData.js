@@ -1,8 +1,8 @@
-import p1 from '/public/p1.png'
-import p2 from '/public/p2.png'
-import p3 from '/public/p3.png'
-import p4 from '/public/p4.png'
-import p5 from '/public/p5.png'
+import p1 from '/p1.png'
+import p2 from '/p2.png'
+import p3 from '/p3.png'
+import p4 from '/p4.png'
+import p5 from '/p5.png'
  const productsData=[
     {id:1,
         img:p1,

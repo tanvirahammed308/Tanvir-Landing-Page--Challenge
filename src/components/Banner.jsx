@@ -33,7 +33,7 @@ const Banner = () => {
         <h2 className="text-sm md:text-xl font-bold">
           Personalized Eyeglass Shopping
         </h2>
-        <button className="flex items-center gap-1 md:gap-2 bg-[#383838] py-2 px-2 rounded-sm text-white my-3">
+        <button className="flex items-center gap-1 md:gap-2 bg-[#383838] py-2 px-2 rounded-sm text-white my-3 ">
           <BsCart2 />
           Buy Now
         </button>

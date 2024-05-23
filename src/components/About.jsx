@@ -1,7 +1,7 @@
 import sun from "/sun-1.png"
 const About = () => {
   return (
-    // h-[450px]
+   
     <div className="block md:flex ">
         <div className="w-full md:w-1/2  bg-[#FED29C] p-10 text-center md:px-24 md:py-24">
             <h2 className="font-bold text-xl w-full md:w-[350px] h-[90px]">Experience clear vision with OptiChroma Vision Frames</h2>

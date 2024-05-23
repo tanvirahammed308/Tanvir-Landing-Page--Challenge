@@ -1,6 +1,7 @@
 import { useContext } from "react";
 import { CardContext } from "../providers/CardProvider";
 import toast from "react-hot-toast";
+import { CiHeart } from "react-icons/ci";
 
 const ProductCard = ({ product }) => {
   const { setCartItems } = useContext(CardContext);
@@ -16,6 +17,12 @@ const ProductCard = ({ product }) => {
   return (
     <div className="w-full md:max-w-sm bg-white border border-gray-200 rounded-lg shadow  flex justify-center items-center flex-col">
       <div className="flex-grow">
+        <div className="mt-2 flex justify-between items-center">
+          <div className="bg-[#FED29C] rounded-full w-12 px-3 py-3 ">100%</div>
+        <CiHeart size={30}/>
+
+
+        </div>
         <a href="#">
           <img className="rounded-t-lg" src={img} alt={name} />
         </a>
